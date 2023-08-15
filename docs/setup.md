@@ -19,3 +19,20 @@ CUDA support is available across a wide range of NVIDIA GPU series. As of my las
 `NVIDIA A100`: A part of the NVIDIA Ampere architecture, the A100 is a data center GPU designed for AI and high-performance computing workloads. It features dedicated Tensor Cores for AI tasks and offers extensive CUDA capabilities.
 
 It's important to note that CUDA support can vary across different models within a series. Also, newer GPU models may have been released after my last update, so I recommend checking the official NVIDIA website or other reliable sources for the latest information on CUDA support for specific GPU models.
+# Verify the system has a CUDA-capable
+- check *NVIDIA-GPU* PCI connection by command `lspci | grep -i nvidia`
+- list current gpu info `sudo lshw -C display`
+- check gpu-cuda-capable at [gpus-cuda-capable](https://developer.nvidia.com/cuda-gpus)
+
+# Verify the system is running a supported version of Linux
+
+# Verify the system has gcc installed
+
+# Verify the system has the correct kernel headers and development packages installed
+
+# Download the NVIDIA CUDA Toolkit
+# Handle conflicting installation methods
+
+# references
+
+[cuda-c-programming-guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#)
