@@ -1,7 +1,3 @@
-# setup
-- install GPU driver
-- install cuda toolkit
-
 # check CUDA-capable GPU
 
 CUDA support is available across a wide range of NVIDIA GPU series. As of my last knowledge update in September 2021, here are some of the notable GPU series that support CUDA:
@@ -30,12 +26,14 @@ It's important to note that CUDA support can vary across different models within
 # Verify the system has gcc installed
 The gcc compiler is required for development using the CUDA Toolkit. It is not required for running CUDA applications. It is generally installed as part of the Linux installation
 - check gcc version `gcc --version`
+
 # Verify the system has the correct kernel headers and development packages installed
 Ensure the correct version of the kernel headers and development packages are installed prior to installing the CUDA Drivers,The CUDA Driver requires that the kernel headers and development packages for the running version of the kernel be installed at the time of the driver installation, as well whenever the driver is rebuilt
 - check kernel version `uname -r`
-- 
+
 # Download the NVIDIA CUDA Toolkit
 The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages).
+
 # Handle conflicting installation methods
 
 # references
