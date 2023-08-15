@@ -31,11 +31,13 @@ The gcc compiler is required for development using the CUDA Toolkit. It is not r
 Ensure the correct version of the kernel headers and development packages are installed prior to installing the CUDA Drivers,The CUDA Driver requires that the kernel headers and development packages for the running version of the kernel be installed at the time of the driver installation, as well whenever the driver is rebuilt
 - check kernel version `uname -r`
 
+# Install the NVIDIA driver
+- search `nvidia-driver` by command `sudo apt search nvidia-driver` or `sudo apt-cache search nvidia-driver`
+
 # Download the NVIDIA CUDA Toolkit
-The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages).
+The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages). The NVIDIA CUDA Toolkit is available at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
 
 # Handle conflicting installation methods
 
 # references
-
 [cuda-c-programming-guide](https://docs.nvidia.com/cuda/cuda-c-programming-guide/index.html#)
