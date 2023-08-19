@@ -11,6 +11,7 @@ dst = 'dataset'
 train_path = os.path.join(dst,'train')
 val_path = os.path.join(dst,'val')
 test_path = os.path.join(dst,'test')
+subsets = ['train','val','test']
 sizes = [0.2,0.05,0.05] # train, val, test
 
 # check source dataset
@@ -41,8 +42,16 @@ if __name__ == "__main__":
     print('Total ', len(classes), ' classes')
 
     for cls in classes:
+        
         files = os.listdir(os.path.join(src,cls))
-        print(files)
         print('Current class: ',cls)
+        total_files = len(files)
+        
+        for i in range(3):
+            size = sizes[i]
+            subset = subsets[i]
+            cite_no = int(total_files*size)
+            print(f'citing {cls} {size} to {subset}, Total {cite_no}')
+
 
     exit(0)
