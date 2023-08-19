@@ -3,8 +3,12 @@
 traning model on `GPU` by framework `pytorch` with `miniconda`
 
 - create tensorflow2.x environment `conda create -n torch python=3.8`
+
 - activate `torch` enviroment `conda activate torch`
+
 - Then install pytorch packages by command: `pip3 install torch torchvision torchaudio`
+
+![result](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-19%2021:07:20.png?raw=true)
 
 # references
 

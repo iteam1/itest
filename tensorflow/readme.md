@@ -10,7 +10,7 @@ traning model on `GPU` by framework `tensorflow` with `miniconda`
 
 - check your `tensorflow` can work with gpu by command `python3 tensorflow/check.py`
 
-![result](../assets/Screenshot 2023-08-19 21:18:35.png)
+![result](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-19%2021:18:35.png?raw=true)
 
 # references
 
