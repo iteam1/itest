@@ -15,6 +15,7 @@ CUDA support is available across a wide range of NVIDIA GPU series. As of my las
 `NVIDIA A100`: A part of the NVIDIA Ampere architecture, the A100 is a data center GPU designed for AI and high-performance computing workloads. It features dedicated Tensor Cores for AI tasks and offers extensive CUDA capabilities.
 
 It's important to note that CUDA support can vary across different models within a series. Also, newer GPU models may have been released after my last update, so I recommend checking the official NVIDIA website or other reliable sources for the latest information on CUDA support for specific GPU models.
+
 # Verify the system has a CUDA-capable
 - check *NVIDIA-GPU* PCI connection by command `lspci | grep -i nvidia`
 - list current gpu info `sudo lshw -C display`
@@ -31,20 +32,7 @@ The gcc compiler is required for development using the CUDA Toolkit. It is not r
 Ensure the correct version of the kernel headers and development packages are installed prior to installing the CUDA Drivers,The CUDA Driver requires that the kernel headers and development packages for the running version of the kernel be installed at the time of the driver installation, as well whenever the driver is rebuilt
 - check kernel version `uname -r`
 
-# Install the NVIDIA driver
-- search `nvidia-driver` by command `sudo apt search nvidia-driver` or `sudo apt-cache search nvidia-driver`
-- install nvidia-driver: `sudo apt install nvidia-driver-510 nvidia-dkms-510`
-- reboot system `sudo reboot`
-- check nvidia driver version `nvidia-smi`
-- watch application realtime `watch -n 0.1 nvidia-smi`
-
-# Download the NVIDIA CUDA Toolkit
-The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages). The NVIDIA CUDA Toolkit is available at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads). Install via `runfile`
-
-    wget https://developer.download.nvidia.com/compute/cuda/12.2.1/local_installers/cuda_12.2.1_535.86.10_linux.run
-    sudo sh cuda_12.2.1_535.86.10_linux.run
-
-# Handle conflicting installation methods
+# Install Nvidia Driver
 
 # references
 
