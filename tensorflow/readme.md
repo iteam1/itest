@@ -3,7 +3,9 @@
 traning model on `GPU` by framework tensorflow verison 2.x (currently v2.13, python=3.9) with miniconda environment
 
 - create tensorflow2.x environment `conda create -n tf2 python=3.9`
+
 - activate `tf2` enviroment `conda activate tf2`
+
 - Then install CUDA and cuDNN with conda and pip.
 
         conda install -c conda-forge cudatoolkit=11.8.0
@@ -13,7 +15,6 @@ traning model on `GPU` by framework tensorflow verison 2.x (currently v2.13, pyt
 
         CUDNN_PATH=$(dirname $(python -c "import nvidia.cudnn;print(nvidia.cudnn.__file__)"))
         export LD_LIBRARY_PATH=$CONDA_PREFIX/lib/:$CUDNN_PATH/lib:$LD_LIBRARY_PATH
-
 
 - For your convenience it is recommended that you automate it with the following commands. The system paths will be automatically configured when you activate this conda environment.
 
@@ -32,3 +33,5 @@ traning model on `GPU` by framework tensorflow verison 2.x (currently v2.13, pyt
 [https://www.tensorflow.org/install/pip](https://www.tensorflow.org/install/pip)
 
 [https://www.tensorflow.org/guide/gpu](https://www.tensorflow.org/guide/gpu)
+
+[https://www.tensorflow.org/tutorials/images/classification](https://www.tensorflow.org/tutorials/images/classification)
