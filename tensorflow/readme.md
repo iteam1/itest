@@ -3,8 +3,14 @@
 traning model on `GPU` by framework `tensorflow` with `miniconda`
 
 - create tensorflow2.x environment `conda create -n tf2 python=3.8`
+
 - activate `tf2` enviroment `conda activate tf2`
+
 - Then install pytorch packages by command: `pip install tensorflow`
+
+- check your `tensorflow` can work with gpu by command `python3 tensorflow/check.py`
+
+![result](../assets/Screenshot 2023-08-19 21:18:35.png)
 
 # references
 

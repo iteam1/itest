@@ -4,7 +4,7 @@ traning model on `GPU` by framework `paddle` with `miniconda`
 
 - create tensorflow2.x environment `conda create -n paddle python=3.8`
 - activate `paddle` enviroment `conda activate paddle`
-- Then install pytorch packages by command: `pip install paddlepaddle-gpu`
+- Then install pytorch packages by command: `pip install paddlepaddle-gpu -i https://mirror.baidu.com/pypi/simple`
 
 # references
 
