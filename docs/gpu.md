@@ -33,8 +33,22 @@ Ensure the correct version of the kernel headers and development packages are in
 - check kernel version `uname -r`
 
 # Install Nvidia Driver
+- Update Ubuntu `sudo apt update && sudo apt upgrade -y`
+- Check GPU version and Drivers `ubuntu-drivers devices`
+- Install driver `sudo apt install nvidia-driver-515`
+- After installed, I will reboot my server computer system using `sudo reboot`
+- Check driver `nvidia-smi` or `watch -n 0.1 nvidia-smi`
+
+# Install CUDA
+- Update Ubuntu `sudo apt update && sudo apt upgrade -y`
+- Install CUDA toolkit `sudo apt-get -y install nvidia-cuda-toolkit`
+- Check installation `nvcc --version` or `which nvcc`
+- Install CUDA Deep Neural Network library (DNN), cuDNN library `sudo apt-get -y install nvidia-cudnn`
+- Find where your cuda installed `find / -type d -name cuda 2>/dev/null`
 
 # references
+
+[https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi)
 
 [https://linuxhint.com/install-cuda-ubuntu-2004/](https://linuxhint.com/install-cuda-ubuntu-2004/)
 
