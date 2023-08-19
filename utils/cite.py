@@ -41,6 +41,7 @@ if __name__ == "__main__":
     print('Total ', len(classes), ' classes')
 
     for cls in classes:
+        total_files = len(os.)
         print('Current class: ',cls)
 
     exit(0)
