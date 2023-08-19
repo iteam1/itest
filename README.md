@@ -10,6 +10,6 @@ test using gpu on framework tensorflow, pytorch, paddle
 **step3:** install essentials [docs/install.md](docs/install.md)
 
 **step4:** start training!
-- [tensorflow2.x](docs/tensorflow2.md)
+- [tensorflow2.x](tf2/tensorflow2.md)
 - [pytorch]()
 - [paddle]()
