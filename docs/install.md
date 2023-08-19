@@ -6,6 +6,7 @@
 - create new environment `miniconda3/bin/conda create -n env38 python=3.8`
 - activate your environment `source miniconda3/bin/activate miniconda3/envs/env38`
 - deactivate your environment `conda deactivate`
+- remove your environment `conda remove --name ENV_NAME --all`
 
 # install git
 - install git command `sudo apt install git`
