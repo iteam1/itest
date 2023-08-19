@@ -1,4 +1,4 @@
-# mytest
+# itest
 test using gpu on framework tensorflow, pytorch, paddle
 
 # guides
