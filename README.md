@@ -24,10 +24,10 @@ dataset in this repo is cited from [flower_photos](https://storage.googleapis.co
 
 [conda](https://conda.io/projects/conda/en/latest/index.html)
 
-[nvidia]()
+[nvidia](https://developer.nvidia.com/)
 
-[tensorflow]()
+[tensorflow](https://www.tensorflow.org/)
 
-[pytorch]()
+[pytorch](https://pytorch.org/)
 
-[paddle]()
+[paddle](https://www.paddlepaddle.org.cn/en)
