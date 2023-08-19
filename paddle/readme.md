@@ -1,6 +1,6 @@
 # test training by paddle framework
 
-traning model on `GPU` by framework paddle with miniconda environment
+traning model on `GPU` by framework `paddle` with `miniconda`
 
 # references
 

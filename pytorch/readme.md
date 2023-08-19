@@ -1,6 +1,6 @@
 # test training by paddle framework
 
-traning model on `GPU` by framework paddle with miniconda environment
+traning model on `GPU` by framework `pytorch` with `miniconda`
 
 - create tensorflow2.x environment `conda create -n torch python=3.8`
 - activate `torch` enviroment `conda activate torch`
