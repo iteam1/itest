@@ -36,14 +36,19 @@ Ensure the correct version of the kernel headers and development packages are in
 - install nvidia-driver: `sudo apt install nvidia-driver-510 nvidia-dkms-510`
 - reboot system `sudo reboot`
 - check nvidia driver version `nvidia-smi`
+- watch application realtime `watch -n 0.1 nvidia-smi`
 
 # Download the NVIDIA CUDA Toolkit
-The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages). The NVIDIA CUDA Toolkit is available at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads).
+The CUDA Toolkit can be installed using either of two different installation mechanisms: distributionspecific packages (RPM and Deb packages), or a distribution-independent package (runfile packages). The NVIDIA CUDA Toolkit is available at [https://developer.nvidia.com/cuda-downloads](https://developer.nvidia.com/cuda-downloads). Install via `runfile`
+
+    wget https://developer.download.nvidia.com/compute/cuda/12.2.1/local_installers/cuda_12.2.1_535.86.10_linux.run
+    sudo sh cuda_12.2.1_535.86.10_linux.run
 
 # Handle conflicting installation methods
 
-
 # references
+
+[https://linuxhint.com/install-cuda-ubuntu-2004/](https://linuxhint.com/install-cuda-ubuntu-2004/)
 
 [https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/)
 

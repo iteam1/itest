@@ -16,6 +16,8 @@ setup your chosen framework on `miniconda` or `anaconda`. Start solving classifi
 - [pytorch](torch/readme.md)
 - [paddle](paddle/readme.md)
 
+dataset in this repo is cited from [flower_photos]() (3.676 items, totalling 233,1 MB) with 20% of total size for training set, 5% total size for validation set and 5% for test set.
+
 # references
 
 [conda](https://conda.io/projects/conda/en/latest/index.html)
