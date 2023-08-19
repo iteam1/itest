@@ -1,0 +1,22 @@
+# model files
+*.pt
+*.pd
+*.hdf5
+*.h5
+
+# compressed files
+*.tar
+*.tar.gz
+*.zip
+*.rar
+
+# virtualenv
+env
+venv
+myconda
+
+# folders
+dst
+src
+tmp
+flower_photos
