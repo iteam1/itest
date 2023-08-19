@@ -57,7 +57,7 @@
 
 # install screen capture
 - Update `apt`: `sudo apt-get update`
-- Install kazam on Ubuntu 22.04
+- Install kazam on Ubuntu 22.04 `sudo apt install kazam`
 
 # references
 
