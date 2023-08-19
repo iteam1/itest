@@ -18,6 +18,7 @@
 - activate your environment `source miniconda3/bin/activate miniconda3/envs/env38`
 - deactivate your environment `conda deactivate`
 - remove your environment `conda remove --name ENV_NAME --all`
+- export your current enviroment `conda env export > environment.yml`
 
 # install git
 - install git command `sudo apt install git`
