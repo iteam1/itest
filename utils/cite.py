@@ -41,7 +41,8 @@ if __name__ == "__main__":
     print('Total ', len(classes), ' classes')
 
     for cls in classes:
-        total_files = len(os.)
+        files = os.listdir(os.path.join(src,cls))
+        print(files)
         print('Current class: ',cls)
 
     exit(0)
