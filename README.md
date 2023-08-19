@@ -7,4 +7,4 @@ test using gpu on framework tensorflow, pytorch, paddle
 
 **step2:** install GPU driver and cuda toolkit [docs/gpu.md](docs/gpu.md)
 
-**step3:** install essentials [docs/essentials.md](docs/essentials.md)
+**step3:** install essentials [docs/install.md](docs/install.md)
