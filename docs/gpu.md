@@ -42,6 +42,7 @@ The CUDA Toolkit can be installed using either of two different installation mec
 
 # Handle conflicting installation methods
 
+
 # references
 
 [https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/](https://www.cyberciti.biz/faq/ubuntu-linux-install-nvidia-driver-latest-proprietary-driver/)

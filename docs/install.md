@@ -1,3 +1,14 @@
+# install htop
+- First, update the system using apt command or apt-get command `apt`: `sudo apt update`
+- Make sure you apply all pending security upgrades and patches on Ubuntu too: `sudo apt upgrade`
+- Install `htop`: `sudo apt install htop` or `sudo apt-get install htop`
+- Run `htop` by command: `htop`
+
+# install nvtop
+- First, update the system using apt command or apt-get command `apt`: `sudo apt update`
+- Install `nvtop`: `sudo apt-get -y install nvtop`
+- Run `nvtop` by command: `nvtop`
+
 # install miniconda
 - download miniconda [Miniconda3 Linux 64-bit](https://docs.conda.io/en/latest/miniconda.html) file
 - install miniconda `bash Miniconda3-latest-Linux-x86_64.sh`
@@ -44,7 +55,15 @@
 
 - Verify that the Docker Engine installation is successful by running the hello-world image `sudo docker run hello-world`
 
+# install screen capture
+- Update `apt`: `sudo apt-get update`
+- Install kazam on Ubuntu 22.04
+
 # references
+
+[https://www.cyberciti.biz/faq/how-to-install-htop-on-ubuntu-linux-using-apt/](https://www.cyberciti.biz/faq/how-to-install-htop-on-ubuntu-linux-using-apt/)
+
+[https://github.com/Syllo/nvtop](https://github.com/Syllo/nvtop)
 
 [https://docs.conda.io/en/latest/miniconda.html](https://docs.conda.io/en/latest/miniconda.html)
 
