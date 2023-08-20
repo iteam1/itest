@@ -10,10 +10,12 @@ traning model on `GPU` by framework `pytorch` with `miniconda`
 
 ![result](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-19%2021:07:20.png?raw=true)
 
+- Open `nvtop` and start training by command `python3 tensorflow/train.py`
+
+![training](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-20%2009:00:07.png?raw=true)
+
 # references
 
 [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
-[https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
-
-[https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
+[https://docs.activeloop.ai/tutorials/deep-learning/training-models/training-an-image-classification-model-in-pytorch](https://docs.activeloop.ai/tutorials/deep-learning/training-models/training-an-image-classification-model-in-pytorch)
