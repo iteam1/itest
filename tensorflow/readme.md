@@ -14,6 +14,8 @@ traning model on `GPU` by framework `tensorflow` with `miniconda`
 
 # references
 
+[Tensorflow, CUDA and Nvidia Driver Install](https://docs.google.com/document/u/0/d/1MQ35ZeMZupJQCz4pUmI2Z0j6yD5VaVRWYBtosGNK0p8/mobilebasic)
+
 [https://www.tensorflow.org/install/pip](https://www.tensorflow.org/install/pip)
 
 [https://www.tensorflow.org/guide/gpu](https://www.tensorflow.org/guide/gpu)

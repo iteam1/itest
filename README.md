@@ -20,8 +20,6 @@ dataset in this repo is cited from [flower_photos](https://storage.googleapis.co
 
 # references
 
-[Tensorflow, CUDA and Nvidia Driver Install](https://docs.google.com/document/u/0/d/1MQ35ZeMZupJQCz4pUmI2Z0j6yD5VaVRWYBtosGNK0p8/mobilebasic)
-
 [conda](https://conda.io/projects/conda/en/latest/index.html)
 
 [nvidia](https://developer.nvidia.com/)
