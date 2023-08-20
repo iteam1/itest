@@ -19,7 +19,7 @@ traning model on `GPU` by framework `tensorflow` with `miniconda`
 
 - Open `nvtop` and start training by command `python3 tensorflow/train.py`
 
-![training](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-19%2021:18:35.png?raw=true)
+![training](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-20%2009:00:07.png?raw=true)
 
 **Note**:
 If you get these message:
