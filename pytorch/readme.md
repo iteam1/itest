@@ -1,4 +1,4 @@
-# test training by paddle framework
+# test training by pytorch framework
 
 traning model on `GPU` by framework `pytorch` with `miniconda`
 
