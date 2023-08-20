@@ -6,7 +6,7 @@ traning model on `GPU` by framework `pytorch` with `miniconda`
 
 - activate `torch` enviroment `conda activate torch`
 
-- Then install pytorch packages by command: `pip3 install torch torchvision torchaudio`
+- Then install pytorch packages by command: `pip3 install numpy --pre torch --force-reinstall --index-url https://download.pytorch.org/whl/nightly/cu117` and `pip3 install torchvision torchaudio`
 
 ![result](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-19%2021:07:20.png?raw=true)
 
@@ -15,3 +15,5 @@ traning model on `GPU` by framework `pytorch` with `miniconda`
 [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/)
 
 [https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html](https://pytorch.org/tutorials/beginner/blitz/cifar10_tutorial.html)
+
+[https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html](https://pytorch.org/tutorials/beginner/transfer_learning_tutorial.html)
