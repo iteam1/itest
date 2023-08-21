@@ -46,6 +46,8 @@ Ensure the correct version of the kernel headers and development packages are in
 - Install CUDA Deep Neural Network library (DNN), cuDNN library `sudo apt-get -y install nvidia-cudnn`
 - Find where your cuda installed `find / -type d -name cuda 2>/dev/null`
 
+**Note**
+
 `nvcc` stands for NVIDIA CUDA Compiler. It is a compiler provided by NVIDIA as part of the CUDA toolkit, which is a software development platform for creating GPU-accelerated applications. CUDA (Compute Unified Device Architecture) enables developers to write code that can be executed on NVIDIA GPUs (Graphics Processing Units) for parallel computing tasks.
 
 `nvcc` is used to compile CUDA C/C++ source code into GPU machine code. It extends the capabilities of traditional C/C++ compilers by adding GPU-specific keywords, functions, and constructs that allow developers to harness the parallel processing power of NVIDIA GPUs. The resulting compiled code can be executed on compatible NVIDIA GPUs, enabling significant speedups for tasks that can be parallelized.
