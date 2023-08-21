@@ -15,6 +15,7 @@ traning model on `GPU` by framework `pytorch` with `miniconda`
 ![training](https://github.com/iteam1/itest/blob/main/assets/Screenshot%202023-08-20%2012:11:35.png?raw=true)
 
 **Note**
+
 The list you've provided seems to be a collection of package names along with their respective version numbers. These packages are related to NVIDIA's CUDA ecosystem, which is used for GPU-accelerated computing, particularly in the context of deep learning and scientific computing. Each package serves a specific purpose within this ecosystem. Here's a brief explanation of each package:
 
 `nvidia-cublas-cu11`: NVIDIA cuBLAS library for linear algebra operations on GPUs.
