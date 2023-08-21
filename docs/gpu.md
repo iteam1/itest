@@ -52,6 +52,22 @@ Ensure the correct version of the kernel headers and development packages are in
 
 In summary, `nvcc` is a critical tool for developers who want to write and compile code that takes advantage of NVIDIA GPUs for high-performance parallel computing tasks using the CUDA framework.
 
+NVIDIA cuDNN (CUDA Deep Neural Network Library) is a software library developed by NVIDIA to accelerate deep learning computations on NVIDIA GPUs. It provides optimized implementations of various operations and functions commonly used in deep neural networks, such as convolution, pooling, normalization, activation functions, and more.
+
+cuDNN is specifically designed to improve the performance of deep learning frameworks like TensorFlow, PyTorch, Caffe, and others that utilize GPUs for training and inference of deep neural networks. It takes advantage of the parallel processing capabilities of GPUs to significantly speed up the computation-heavy tasks involved in training and using neural networks.
+
+Some key features of cuDNN include:
+
+Performance Optimization: cuDNN provides highly optimized GPU-accelerated implementations of common operations in deep neural networks, making training and inference much faster compared to using only general-purpose libraries.
+
+Compatibility: cuDNN is designed to seamlessly integrate with popular deep learning frameworks, making it relatively easy for developers to leverage its performance benefits without major code modifications.
+
+Flexible Configuration: It offers various configuration options to fine-tune the performance based on the specific hardware and network architecture being used.
+
+Support for Different Precisions: cuDNN supports different data precisions, such as single-precision (float32) and half-precision (float16), allowing developers to choose the level of precision based on their application's requirements.
+
+In summary, NVIDIA cuDNN is a crucial library for deep learning practitioners as it enhances the speed and efficiency of training and deploying neural networks on NVIDIA GPUs, ultimately leading to faster model development and improved performance.
+
 # references
 
 [https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi)
