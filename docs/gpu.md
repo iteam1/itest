@@ -46,6 +46,15 @@ Ensure the correct version of the kernel headers and development packages are in
 - Install CUDA Deep Neural Network library (DNN), cuDNN library `sudo apt-get -y install nvidia-cudnn`
 - Find where your cuda installed `find / -type d -name cuda 2>/dev/null`
 
+# Install Nvidia-container-toolkit
+
+    $ distribution=$(. /etc/os-release;echo $ID$VERSION_ID)
+    $ curl -s -L https://nvidia.github.io/nvidia-docker/gpgkey | sudo apt-key add -
+    $ curl -s -L https://nvidia.github.io/nvidia-docker/$distribution/nvidia-docker.list | sudo tee /etc/apt/sources.list.d/nvidia-docker.list
+    
+    $ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
+    $ sudo systemctl restart docker
+
 **Note**
 
 `nvcc` stands for NVIDIA CUDA Compiler. It is a compiler provided by NVIDIA as part of the CUDA toolkit, which is a software development platform for creating GPU-accelerated applications. CUDA (Compute Unified Device Architecture) enables developers to write code that can be executed on NVIDIA GPUs (Graphics Processing Units) for parallel computing tasks.
