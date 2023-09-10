@@ -107,6 +107,10 @@ In summary, the main difference between the CUDA Toolkit from NVIDIA and the one
 
 # references
 
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/install-guide.html
+
+https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/latest/sample-workload.html
+
 [https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi](https://stackoverflow.com/questions/53422407/different-cuda-versions-shown-by-nvcc-and-nvidia-smi)
 
 [https://linuxhint.com/install-cuda-ubuntu-2004/](https://linuxhint.com/install-cuda-ubuntu-2004/)
