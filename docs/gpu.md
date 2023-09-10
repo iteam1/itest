@@ -55,19 +55,19 @@ Ensure the correct version of the kernel headers and development packages are in
     $ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
     $ sudo systemctl restart docker
 
-Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=docker`
+- Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=docker`
 
-Restart the Docker daemon: `sudo systemctl restart docker`
+- Restart the Docker daemon: `sudo systemctl restart docker`
 
-Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=containerd`
+- Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=containerd`
 
-Restart containerd: `sudo systemctl restart containerd`
+- Restart containerd: `sudo systemctl restart containerd`
 
-Configure the container runtime by using the nvidia-ctk command: `sudo nvidia-ctk runtime configure --runtime=crio`
+- Configure the container runtime by using the nvidia-ctk command: `sudo nvidia-ctk runtime configure --runtime=crio`
 
-Restart the CRI-O daemon: `sudo systemctl restart crio`
+- Restart the CRI-O daemon: `sudo systemctl restart crio`
 
-Run a sample CUDA container: `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi`
+- Run a sample CUDA container: `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi`
 
 **Note**
 
