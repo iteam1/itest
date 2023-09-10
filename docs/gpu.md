@@ -55,6 +55,20 @@ Ensure the correct version of the kernel headers and development packages are in
     $ sudo apt-get update && sudo apt-get install -y nvidia-container-toolkit
     $ sudo systemctl restart docker
 
+Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=docker`
+
+Restart the Docker daemon: `sudo systemctl restart docker`
+
+Configure the container runtime by using the `nvidia-ctk` command: `sudo nvidia-ctk runtime configure --runtime=containerd`
+
+Restart containerd: `sudo systemctl restart containerd`
+
+Configure the container runtime by using the nvidia-ctk command: `sudo nvidia-ctk runtime configure --runtime=crio`
+
+Restart the CRI-O daemon: `sudo systemctl restart crio`
+
+Run a sample CUDA container: `sudo docker run --rm --runtime=nvidia --gpus all ubuntu nvidia-smi`
+
 **Note**
 
 `nvcc` stands for NVIDIA CUDA Compiler. It is a compiler provided by NVIDIA as part of the CUDA toolkit, which is a software development platform for creating GPU-accelerated applications. CUDA (Compute Unified Device Architecture) enables developers to write code that can be executed on NVIDIA GPUs (Graphics Processing Units) for parallel computing tasks.
